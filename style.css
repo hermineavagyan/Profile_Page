@@ -1,0 +1,225 @@
+body{
+    width: 1200px;
+    padding: 0;
+    margin: 0;
+}
+
+#black{
+    background-color: black;
+    display: flex;
+    
+   
+}
+#white{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-color: white;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 180px;
+    
+    
+}  
+.columns{
+    display: flex;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    margin:20px;
+    
+}
+#col2{
+    
+    flex:2;
+
+}
+.icons{
+    height: 30px;
+    margin-right: 20px;
+   
+}
+#blue{
+    background: darkcyan;
+    height:70px;
+    padding-bottom: 70px;
+}
+#userPic{
+    height:100px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom:70px;
+   margin-left: 20px;
+}
+#about{
+    position:relative;
+    bottom: 80px;
+    margin-left: 20px;   
+}
+
+#janeDoe{
+    height: 450px;
+    border-style: ridge;
+    align-self: stretch;
+   
+}
+#mapIcon{
+    display: inline-flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#developerText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#editProfile{
+    display: inline-flex;
+    align-items: center;
+    
+}
+#education{
+    
+    margin-top: 20px;
+}
+#educationHeader{
+    background-color: black;
+    height: 40px;
+    color:white;
+    font-size: x-large;
+    padding-top: 20px;
+}
+#educationBody{
+    border-style: groove;
+}
+#codingDojo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin-left: 20px;
+}
+#december{
+    opacity: 0.5;
+    font-size: large;
+    margin-left: 20px;
+}
+#triple{
+    font-family: monospace;
+    margin-left: 20px;
+}
+#requests{
+    border-style: ridge;
+    margin-bottom: 20px;
+}
+#connections{
+    margin-top: 20px;
+    border-style: ridge;
+}
+.links{
+    color: rgb(80, 153, 221);
+}
+h1{
+    color:white;
+    margin-left: 200px;
+   
+    
+}
+.nav_bars{
+    display: flex;
+    color:white;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 30px;
+    
+}
+.nav_bars li{
+    margin-right: 30px;    
+}
+
+#btn{
+    display: flex;
+    width: 100px;
+    padding: 5px;
+    border-color: black;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+    background-color:darkturquoise;
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    margin-left: 200px;
+    ;
+}
+#connectionRequest{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+#toddE{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#philK{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#viewMore{
+    display:flex;
+    align-items:center;
+    border-top: ridge;
+    height: 90px;
+    width:100%;
+    
+}
+.names{
+    margin-right: 10px;
+}
+#my{
+    font-weight: bolder;
+}
+#adrien,#anne,#alayne,#arry{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none; 
+    
+    margin-bottom: 11px; 
+}
+
+#connectionsBlack{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color:white;
+    text-align:end;
+    height: 80px;
+}
+#yourConnections{
+    display: inline;
+     height:150px;
+     padding-bottom: 20px;
+}
+#oval{
+    position:relative;
+    right:20;
+    bottom:30;
+    background-color: dimgray;
+    border-style: groove;
+    height: 20px;
+    width:40px;
+    border-radius: 50%;
+}#numberTwo{
+    padding-top: 5px;
+    border-style: ridge;
+    border-radius: 50%;
+    height: 30px;
+    width:30px;
+    text-align: center;
+    text-align-last: center;
+}
